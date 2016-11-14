@@ -1,0 +1,80 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2A4D14;
+    position: fixed;
+    top: 0; 
+    width: 100%;
+}
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: pink;
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+h1 {
+    text-align:center;
+    background-color: #AFF9C9;
+}
+h2 { 
+    text-align: center;
+ }
+
+ h3 { 
+    text-align: center;
+ }
+
+.para {
+    color: blue;
+ }
+ #font {
+ font-family: helvetica;
+}
+ #foot {
+    font-size: 30px;
+    background-image: url("http://p.vitalmtb.com/photos/users/2/photos/37932/s780_s1600_untitled_1532.jpg?1340900620");
+ }
+
+div {
+    background-color: #FFFFFF;
+}
+@media screen and (max-width: 500px) {
+  body {
+    font-size: 80%;
+  }
+}
+@media screen and (max-width: 500px) {
+  img {
+    width: 90%;
+    height: 90%;
+  }
+}
+
