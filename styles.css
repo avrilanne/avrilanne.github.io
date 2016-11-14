@@ -1,4 +1,3 @@
-<style>
 ul {
     list-style-type: none;
     margin: 0;
@@ -8,6 +7,13 @@ ul {
     position: fixed;
     top: 0; 
     width: 100%;
+}
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: pink;
 }
 
 li {
@@ -46,7 +52,29 @@ h2 {
     text-align: center;
  }
 
+.para {
+    color: blue;
+ }
+ #font {
+ font-family: helvetica;
+}
+ #foot {
+    font-size: 30px;
+    background-image: url("http://p.vitalmtb.com/photos/users/2/photos/37932/s780_s1600_untitled_1532.jpg?1340900620");
+ }
+
 div {
     background-color: #FFFFFF;
 }
-</style>
+@media screen and (max-width: 500px) {
+  body {
+    font-size: 80%;
+  }
+}
+@media screen and (max-width: 500px) {
+  img {
+    width: 90%;
+    height: 90%;
+  }
+}
+
